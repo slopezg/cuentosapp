@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">CuentosApp</string>
+    <string name="my_story_title">Mis Cuentos</string>
+    <string name="pajarito_one_question">¿Cuál podría ser otro título para el cuento?</string>
+    <string name="pajarito_two_question">¿Cuál es la idea principal del cuento?</string>
+    <string name="pajarito_three_question">\'Cuéntame el cuento del pajarito que no sabía volar\'. ¿Qué palabra reemplaza la subrayada anteriormente?</string>
+    <string name="pajarito_one_question_one_answer">El niño pájaro</string>
+    <string name="pajarito_one_question_two_answer">Las etapas de los pájaros</string>
+    <string name="pajarito_one_question_three_answer">La madre, el niño y el pájaro</string>
+    <string name="pajarito_one_question_four_answer">El niño volador</string>
+    <string name="pajarito_two_question_one_answer">Sugerir que debe comerse toda su comida.</string>
+    <string name="pajaito_two_question_two_answer">Enseñarle que debe ser amable.</string>
+    <string name="pajarito_two_question_three_answer">Advertir al niño sobre las etapas  por las que él muy pronto  también estará pasando.</string>
+    <string name="without_correct_answers">Lo sentimos, no has contestado ninguna pregunta correcta. Intenta de nuevo, ¡Tú puedes!</string>
+    <string name="all_corrects_answers">¡Felicidades, has contestado todas la preguntas correctamente!</string>
+</resources>

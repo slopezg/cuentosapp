@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cvStory"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="180dp"
+    android:layout_margin="5dp"
+    android:scaleType="fitXY"
+    card:cardCornerRadius="20dp"
+    card:cardElevation="5dp"
+    card:cardBackgroundColor="@color/background"
+    android:foreground="?attr/selectableItemBackground">
+
+
+    <ImageView
+        android:scaleType="fitXY"
+        android:id="@+id/ivStoryImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:visibility="invisible"
+        android:background="#80000000"
+        android:layout_gravity="bottom"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="12sp"
+        android:textColor="@color/white"
+        android:id="@+id/tvStoryTitle"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+</android.support.v7.widget.CardView>
