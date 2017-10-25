@@ -5,7 +5,7 @@
     android:layout_margin="15dp"
     android:gravity="center"
     android:layout_height="wrap_content"
-    card:cardBackgroundColor="@color/backgroundViewPager"
+    card:cardBackgroundColor="#B3FFFFFF"
     card:cardCornerRadius="10dp"
     card:cardElevation="5dp"
     android:orientation="vertical">
@@ -27,8 +27,9 @@
                 android:id="@+id/tvQuestion"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textColor="@color/black"
                 android:layout_margin="10dp"
-                android:textSize="18sp"
+                android:textSize="22sp"
                 android:textStyle="bold" />
 
 
@@ -40,13 +41,13 @@
         android:layout_gravity="bottom|end"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="20dp">
+        android:layout_margin="10dp">
 
         <android.support.design.widget.FloatingActionButton
             android:id="@+id/fabNext"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="20dp"
+            android:layout_margin="10dp"
             android:visibility="invisible" />
     </FrameLayout>
 

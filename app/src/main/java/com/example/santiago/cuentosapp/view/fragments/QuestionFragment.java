@@ -50,6 +50,7 @@ public class QuestionFragment extends Fragment {
 
         for (AnswerModel answer : question.getAnswers()) {
             CheckBox checkBox = new CheckBox(getContext());
+            checkBox.setTextSize(15);
             checkBox.setText(answer.getDescription());
             checkBox.setOnCheckedChangeListener(new MyCheckedChangeListener(answer.isRight()));
             lyQuestion.addView(checkBox);
