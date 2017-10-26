@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/home"
-    tools:context="com.example.santiago.cuentosapp.view.activities.StoryListActivity">
+    tools:context="com.example.aventu.cuentosapp.view.activities.StoryListActivity">
 
     <android.support.v7.widget.RecyclerView
         android:layout_marginTop="45dp"

@@ -6,10 +6,10 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    tools:context="com.example.santiago.cuentosapp.view.activities.PlayActivity">
+    tools:context="com.example.aventu.cuentosapp.view.activities.PlayActivity">
 
 
-    <com.example.santiago.cuentosapp.util.CustomViewPager
+    <com.example.aventu.cuentosapp.util.CustomViewPager
         android:layout_margin="20dp"
         android:id="@+id/vpQuestions"
         android:layout_gravity="center"

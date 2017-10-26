@@ -6,7 +6,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.santiago.cuentosapp.view.activities.StoryActivity">
+    tools:context="com.example.aventu.cuentosapp.view.activities.StoryActivity">
 
     <FrameLayout
         android:layout_margin="20dp"
